@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bike.jpg) no-repeat;
+	background-size: cover;
+	height: 800px;
+	background-size: cover;
+	background-blend-mode: darken;
+}
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 50px;
+	border-radius: 70px;
+	padding: 20px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 255, 255);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.services {
+    background-color: #f6f6f6;
+    padding: 90px;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .service {
+    flex-basis: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    color: #666;
+  }
+  
